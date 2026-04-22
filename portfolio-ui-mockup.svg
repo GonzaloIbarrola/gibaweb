@@ -1,0 +1,193 @@
+<svg width="1440" height="3200" viewBox="0 0 1440 3200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="190" y1="80" x2="1260" y2="3120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1324"/>
+      <stop offset="1" stop-color="#060A12"/>
+    </linearGradient>
+    <linearGradient id="heroGlow" x1="720" y1="220" x2="720" y2="980" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9CFF1A" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#9CFF1A" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cardGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#B0FF45" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#B0FF45" stop-opacity="0.03"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+    <filter id="smallGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1440" height="3200" fill="url(#bgGrad)"/>
+  <circle cx="1120" cy="280" r="320" fill="#1A2A57" fill-opacity="0.42" filter="url(#softShadow)"/>
+  <circle cx="300" cy="520" r="260" fill="#0E4322" fill-opacity="0.28" filter="url(#softShadow)"/>
+  <circle cx="810" cy="1380" r="360" fill="#102348" fill-opacity="0.34" filter="url(#softShadow)"/>
+  <rect x="0" y="0" width="1440" height="980" fill="url(#heroGlow)"/>
+
+  <rect x="80" y="36" width="1280" height="72" rx="24" fill="#0F172D" fill-opacity="0.7" stroke="rgba(156,255,26,0.08)"/>
+  <text x="132" y="82" fill="#F3F7FF" font-family="Arial, sans-serif" font-size="30" font-weight="700">Gonzalo Dev</text>
+  <text x="900" y="82" fill="#A6B1C8" font-family="Arial, sans-serif" font-size="20">Inicio</text>
+  <text x="995" y="82" fill="#A6B1C8" font-family="Arial, sans-serif" font-size="20">Stack</text>
+  <text x="1080" y="82" fill="#A6B1C8" font-family="Arial, sans-serif" font-size="20">Proyectos</text>
+  <text x="1195" y="82" fill="#A6B1C8" font-family="Arial, sans-serif" font-size="20">Contacto</text>
+
+  <g>
+    <text x="720" y="236" text-anchor="middle" fill="#9CFF1A" font-family="Arial, sans-serif" font-size="24" font-weight="700">PORTFOLIO PROFESIONAL</text>
+    <text x="720" y="332" text-anchor="middle" fill="#F5F8FF" font-family="Arial, sans-serif" font-size="78" font-weight="800">Desarrollador Web</text>
+    <text x="720" y="418" text-anchor="middle" fill="#F5F8FF" font-family="Arial, sans-serif" font-size="78" font-weight="800">Full Stack</text>
+    <text x="720" y="486" text-anchor="middle" fill="#95A4C0" font-family="Arial, sans-serif" font-size="28">Construyo aplicaciones modernas, escalables y optimizadas,</text>
+    <text x="720" y="524" text-anchor="middle" fill="#95A4C0" font-family="Arial, sans-serif" font-size="28">con foco en experiencia, SEO y arquitectura clara.</text>
+
+    <rect x="518" y="582" width="186" height="58" rx="16" fill="#9CFF1A"/>
+    <text x="611" y="620" text-anchor="middle" fill="#09101C" font-family="Arial, sans-serif" font-size="21" font-weight="700">Ver proyectos</text>
+    <rect x="724" y="582" width="186" height="58" rx="16" fill="#10182B" stroke="#2D3E60"/>
+    <text x="817" y="620" text-anchor="middle" fill="#EAF0FF" font-family="Arial, sans-serif" font-size="21" font-weight="700">Contactarme</text>
+  </g>
+
+  <g>
+    <rect x="210" y="710" width="1020" height="500" rx="34" fill="#10182B" stroke="#213252"/>
+    <rect x="262" y="768" width="120" height="20" rx="10" fill="#213252"/>
+    <rect x="396" y="768" width="120" height="20" rx="10" fill="#213252"/>
+    <rect x="530" y="768" width="120" height="20" rx="10" fill="#213252"/>
+
+    <rect x="266" y="834" width="242" height="292" rx="20" fill="#0D1324"/>
+    <rect x="540" y="834" width="398" height="292" rx="20" fill="#0B1020"/>
+    <rect x="968" y="834" width="208" height="292" rx="20" fill="#0D1324"/>
+
+    <text x="296" y="888" fill="#5EEAD4" font-family="Courier New, monospace" font-size="20">import app from</text>
+    <text x="296" y="922" fill="#EAB308" font-family="Courier New, monospace" font-size="20">'portfolio'</text>
+    <text x="296" y="980" fill="#9CA3AF" font-family="Courier New, monospace" font-size="18">const metadata = {</text>
+    <text x="320" y="1012" fill="#F87171" font-family="Courier New, monospace" font-size="18">seo: true,</text>
+    <text x="320" y="1044" fill="#86EFAC" font-family="Courier New, monospace" font-size="18">modular: true</text>
+    <text x="296" y="1076" fill="#9CA3AF" font-family="Courier New, monospace" font-size="18">}</text>
+
+    <text x="572" y="892" fill="#C7D2FE" font-family="Courier New, monospace" font-size="22">function FeaturedProject() {'{'}</text>
+    <text x="606" y="930" fill="#9CA3AF" font-family="Courier New, monospace" font-size="20">return (</text>
+    <text x="638" y="968" fill="#F472B6" font-family="Courier New, monospace" font-size="20">&lt;article className="card"&gt;</text>
+    <text x="670" y="1006" fill="#5EEAD4" font-family="Courier New, monospace" font-size="20">&lt;h3&gt;E-commerce Admin&lt;/h3&gt;</text>
+    <text x="670" y="1044" fill="#A3E635" font-family="Courier New, monospace" font-size="20">&lt;Tag&gt;Next.js&lt;/Tag&gt;</text>
+    <text x="638" y="1082" fill="#F472B6" font-family="Courier New, monospace" font-size="20">&lt;/article&gt;</text>
+    <text x="606" y="1120" fill="#9CA3AF" font-family="Courier New, monospace" font-size="20">)</text>
+
+    <rect x="998" y="882" width="148" height="16" rx="8" fill="#293A60"/>
+    <rect x="998" y="926" width="124" height="16" rx="8" fill="#293A60"/>
+    <rect x="998" y="970" width="152" height="16" rx="8" fill="#293A60"/>
+    <rect x="998" y="1032" width="118" height="118" rx="18" fill="#141F36" stroke="#233455"/>
+    <circle cx="1058" cy="1092" r="28" fill="#9CFF1A" fill-opacity="0.25"/>
+    <circle cx="1058" cy="1092" r="12" fill="#9CFF1A"/>
+  </g>
+
+  <text x="720" y="1388" text-anchor="middle" fill="#F5F8FF" font-family="Arial, sans-serif" font-size="54" font-weight="800">Tecnologías y enfoque</text>
+  <text x="720" y="1436" text-anchor="middle" fill="#95A4C0" font-family="Arial, sans-serif" font-size="24">Stack actual, arquitectura escalable y buenas prácticas orientadas a producto.</text>
+
+  <g>
+    <rect x="120" y="1510" width="380" height="174" rx="28" fill="#10182B" stroke="url(#cardGlow)"/>
+    <rect x="542" y="1510" width="380" height="174" rx="28" fill="#10182B" stroke="url(#cardGlow)"/>
+    <rect x="964" y="1510" width="356" height="174" rx="28" fill="#10182B" stroke="url(#cardGlow)"/>
+
+    <text x="156" y="1578" fill="#9CFF1A" font-family="Arial, sans-serif" font-size="22" font-weight="700">Frontend</text>
+    <text x="156" y="1622" fill="#F5F8FF" font-family="Arial, sans-serif" font-size="30" font-weight="700">Next.js · React · Tailwind</text>
+    <text x="156" y="1660" fill="#95A4C0" font-family="Arial, sans-serif" font-size="19">Interfaces limpias, rápidas y enfocadas en conversión.</text>
+
+    <text x="578" y="1578" fill="#9CFF1A" font-family="Arial, sans-serif" font-size="22" font-weight="700">Backend</text>
+    <text x="578" y="1622" fill="#F5F8FF" font-family="Arial, sans-serif" font-size="30" font-weight="700">Node.js · APIs · Auth</text>
+    <text x="578" y="1660" fill="#95A4C0" font-family="Arial, sans-serif" font-size="19">Servicios desacoplados y código mantenible a largo plazo.</text>
+
+    <text x="1000" y="1578" fill="#9CFF1A" font-family="Arial, sans-serif" font-size="22" font-weight="700">SEO y performance</text>
+    <text x="1000" y="1622" fill="#F5F8FF" font-family="Arial, sans-serif" font-size="30" font-weight="700">Semántica · Core Web Vitals</text>
+    <text x="1000" y="1660" fill="#95A4C0" font-family="Arial, sans-serif" font-size="19">Arquitectura orientada a indexación, velocidad y claridad.</text>
+  </g>
+
+  <text x="720" y="1844" text-anchor="middle" fill="#F5F8FF" font-family="Arial, sans-serif" font-size="54" font-weight="800">Proyectos destacados</text>
+  <text x="720" y="1892" text-anchor="middle" fill="#95A4C0" font-family="Arial, sans-serif" font-size="24">Repos consumidos desde GitHub con metadata personalizada y detalle por proyecto.</text>
+
+  <g>
+    <rect x="382" y="1946" width="136" height="42" rx="21" fill="#9CFF1A"/>
+    <text x="450" y="1974" text-anchor="middle" fill="#08101C" font-family="Arial, sans-serif" font-size="18" font-weight="700">Todos</text>
+    <rect x="536" y="1946" width="136" height="42" rx="21" fill="#111A2F" stroke="#2A3B5D"/>
+    <text x="604" y="1974" text-anchor="middle" fill="#EAF0FF" font-family="Arial, sans-serif" font-size="18">Next.js</text>
+    <rect x="690" y="1946" width="136" height="42" rx="21" fill="#111A2F" stroke="#2A3B5D"/>
+    <text x="758" y="1974" text-anchor="middle" fill="#EAF0FF" font-family="Arial, sans-serif" font-size="18">Node.js</text>
+    <rect x="844" y="1946" width="148" height="42" rx="21" fill="#111A2F" stroke="#2A3B5D"/>
+    <text x="918" y="1974" text-anchor="middle" fill="#EAF0FF" font-family="Arial, sans-serif" font-size="18">PostgreSQL</text>
+  </g>
+
+  <g>
+    <rect x="120" y="2044" width="380" height="428" rx="30" fill="#11192D" stroke="#223453"/>
+    <rect x="542" y="2044" width="380" height="428" rx="30" fill="#11192D" stroke="#223453"/>
+    <rect x="964" y="2044" width="356" height="428" rx="30" fill="#11192D" stroke="#223453"/>
+
+    <rect x="148" y="2072" width="324" height="184" rx="20" fill="#0A0F1C"/>
+    <rect x="570" y="2072" width="324" height="184" rx="20" fill="#0A0F1C"/>
+    <rect x="992" y="2072" width="300" height="184" rx="20" fill="#0A0F1C"/>
+
+    <rect x="172" y="2100" width="278" height="22" rx="11" fill="#1B2642"/>
+    <rect x="172" y="2136" width="214" height="18" rx="9" fill="#293A60"/>
+    <rect x="172" y="2172" width="186" height="18" rx="9" fill="#293A60"/>
+    <rect x="192" y="2208" width="108" height="26" rx="13" fill="#1B2A14"/>
+    <text x="246" y="2226" text-anchor="middle" fill="#9CFF1A" font-family="Arial, sans-serif" font-size="15">dashboard</text>
+    <rect x="310" y="2208" width="92" height="26" rx="13" fill="#18233B"/>
+    <text x="356" y="2226" text-anchor="middle" fill="#D8E3FF" font-family="Arial, sans-serif" font-size="15">tailwind</text>
+
+    <rect x="594" y="2100" width="278" height="22" rx="11" fill="#1B2642"/>
+    <rect x="594" y="2136" width="214" height="18" rx="9" fill="#293A60"/>
+    <rect x="594" y="2172" width="186" height="18" rx="9" fill="#293A60"/>
+    <rect x="614" y="2208" width="104" height="26" rx="13" fill="#1B2A14"/>
+    <text x="666" y="2226" text-anchor="middle" fill="#9CFF1A" font-family="Arial, sans-serif" font-size="15">e-commerce</text>
+    <rect x="728" y="2208" width="92" height="26" rx="13" fill="#18233B"/>
+    <text x="774" y="2226" text-anchor="middle" fill="#D8E3FF" font-family="Arial, sans-serif" font-size="15">node</text>
+
+    <rect x="1016" y="2100" width="254" height="22" rx="11" fill="#1B2642"/>
+    <rect x="1016" y="2136" width="190" height="18" rx="9" fill="#293A60"/>
+    <rect x="1016" y="2172" width="168" height="18" rx="9" fill="#293A60"/>
+    <rect x="1036" y="2208" width="88" height="26" rx="13" fill="#1B2A14"/>
+    <text x="1080" y="2226" text-anchor="middle" fill="#9CFF1A" font-family="Arial, sans-serif" font-size="15">booking</text>
+    <rect x="1134" y="2208" width="106" height="26" rx="13" fill="#18233B"/>
+    <text x="1187" y="2226" text-anchor="middle" fill="#D8E3FF" font-family="Arial, sans-serif" font-size="15">postgres</text>
+
+    <text x="148" y="2306" fill="#F5F8FF" font-family="Arial, sans-serif" font-size="30" font-weight="700">Panel administrativo</text>
+    <text x="148" y="2344" fill="#95A4C0" font-family="Arial, sans-serif" font-size="20">Gestión de productos, usuarios y métricas con UI modular y foco en escalabilidad.</text>
+    <rect x="148" y="2394" width="148" height="46" rx="14" fill="#9CFF1A"/>
+    <text x="222" y="2424" text-anchor="middle" fill="#08101C" font-family="Arial, sans-serif" font-size="18" font-weight="700">Ver detalle</text>
+    <text x="320" y="2424" fill="#DDE7FF" font-family="Arial, sans-serif" font-size="18">GitHub</text>
+
+    <text x="570" y="2306" fill="#F5F8FF" font-family="Arial, sans-serif" font-size="30" font-weight="700">Tienda online</text>
+    <text x="570" y="2344" fill="#95A4C0" font-family="Arial, sans-serif" font-size="20">Catálogo, checkout y panel de gestión con integración de pagos y filtros avanzados.</text>
+    <rect x="570" y="2394" width="148" height="46" rx="14" fill="#9CFF1A"/>
+    <text x="644" y="2424" text-anchor="middle" fill="#08101C" font-family="Arial, sans-serif" font-size="18" font-weight="700">Ver detalle</text>
+    <text x="742" y="2424" fill="#DDE7FF" font-family="Arial, sans-serif" font-size="18">GitHub</text>
+
+    <text x="992" y="2306" fill="#F5F8FF" font-family="Arial, sans-serif" font-size="30" font-weight="700">Sistema de turnos</text>
+    <text x="992" y="2344" fill="#95A4C0" font-family="Arial, sans-serif" font-size="20">Reserva de servicios, panel administrativo y gestión de disponibilidad en tiempo real.</text>
+    <rect x="992" y="2394" width="148" height="46" rx="14" fill="#9CFF1A"/>
+    <text x="1066" y="2424" text-anchor="middle" fill="#08101C" font-family="Arial, sans-serif" font-size="18" font-weight="700">Ver detalle</text>
+    <text x="1164" y="2424" fill="#DDE7FF" font-family="Arial, sans-serif" font-size="18">GitHub</text>
+  </g>
+
+  <g>
+    <rect x="120" y="2572" width="1200" height="356" rx="34" fill="#10182B" stroke="#223454"/>
+    <text x="180" y="2660" fill="#F5F8FF" font-family="Arial, sans-serif" font-size="54" font-weight="800">Sobre mi forma de trabajar</text>
+    <text x="180" y="2720" fill="#95A4C0" font-family="Arial, sans-serif" font-size="24">Desarrollo soluciones modulares, pensadas para escalar y ser fáciles de mantener.</text>
+    <text x="180" y="2758" fill="#95A4C0" font-family="Arial, sans-serif" font-size="24">Priorizo arquitectura clara, SEO y una experiencia de usuario simple y efectiva.</text>
+
+    <rect x="182" y="2812" width="258" height="52" rx="16" fill="#0C1325" stroke="#2A3B5D"/>
+    <text x="311" y="2846" text-anchor="middle" fill="#EAF0FF" font-family="Arial, sans-serif" font-size="18">Arquitectura desacoplada</text>
+    <rect x="458" y="2812" width="204" height="52" rx="16" fill="#0C1325" stroke="#2A3B5D"/>
+    <text x="560" y="2846" text-anchor="middle" fill="#EAF0FF" font-family="Arial, sans-serif" font-size="18">SEO first</text>
+    <rect x="680" y="2812" width="230" height="52" rx="16" fill="#0C1325" stroke="#2A3B5D"/>
+    <text x="795" y="2846" text-anchor="middle" fill="#EAF0FF" font-family="Arial, sans-serif" font-size="18">Componentes por función</text>
+  </g>
+
+  <g>
+    <rect x="120" y="2980" width="1200" height="150" rx="30" fill="#10182B" stroke="#293B5E"/>
+    <text x="180" y="3060" fill="#F5F8FF" font-family="Arial, sans-serif" font-size="44" font-weight="800">¿Listo para construir algo sólido?</text>
+    <text x="180" y="3102" fill="#95A4C0" font-family="Arial, sans-serif" font-size="22">Contacto directo para proyectos, colaboraciones o nuevas oportunidades.</text>
+    <rect x="944" y="3026" width="320" height="58" rx="16" fill="#9CFF1A"/>
+    <text x="1104" y="3064" text-anchor="middle" fill="#08101C" font-family="Arial, sans-serif" font-size="21" font-weight="700">Enviar mensaje</text>
+  </g>
+
+  <rect x="0" y="3158" width="1440" height="42" fill="#070B14"/>
+  <text x="120" y="3187" fill="#8FA0BE" font-family="Arial, sans-serif" font-size="16">Portfolio personal · Next.js · GitHub API · SEO orientado a resultados</text>
+</svg>
