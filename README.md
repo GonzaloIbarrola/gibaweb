@@ -64,7 +64,7 @@ El sitio puede leer metadata desde los README de repositorios de GitHub. Para qu
   "demoUrl": "https://demo.com",
   "repoUrl": "https://github.com/usuario/repositorio",
   "published": true,
-  "featured": true,
+  "featured": false,
   "priority": 1
 }
 ```
