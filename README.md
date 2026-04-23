@@ -29,7 +29,7 @@ Portfolio profesional construido con Next.js, React y Tailwind CSS. El sitio mue
 
 El sitio puede leer metadata desde los README de repositorios de GitHub. Para que un repositorio aparezca en el portfolio, incluir una seccion `portfolio-meta` con JSON:
 
-### Metadata sugerida para este proyecto
+## portfolio-meta
 
 ```json
 {
@@ -49,26 +49,6 @@ El sitio puede leer metadata desde los README de repositorios de GitHub. Para qu
   "priority": 1
 }
 ```
-
-````md
-## portfolio-meta
-
-```json
-{
-  "slug": "nombre-del-proyecto",
-  "title": "Nombre del proyecto",
-  "summary": "Descripcion corta del proyecto.",
-  "tags": ["Next.js", "React", "Tailwind CSS"],
-  "thumbnail": "/images/projects/proyecto/cover.png",
-  "thumbnailAlt": "Vista principal del proyecto",
-  "demoUrl": "https://demo.com",
-  "repoUrl": "https://github.com/usuario/repositorio",
-  "published": true,
-  "featured": false,
-  "priority": 1
-}
-```
-````
 
 ## Estructura principal
 
