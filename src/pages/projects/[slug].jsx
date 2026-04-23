@@ -4,19 +4,36 @@ import Container from "@/components/ui/Container";
 import ProjectHero from "@/components/projects/ProjectHero";
 import ProjectDetail from "@/components/projects/ProjectDetail";
 import { getProjectBySlug, getProjects } from "@/services/api/portfolioApi";
+import { buildAbsoluteUrl, siteMetadata } from "@/config/siteMetadata";
 
 export default function ProjectPage({ project }) {
   if (!project) {
     return null;
   }
 
+  const title = project.seoTitle || `${project.title} | ${siteMetadata.name}`;
+  const description = project.seoDescription || project.summary;
+  const url = buildAbsoluteUrl(`/projects/${project.slug}`);
+  const imageUrl = project.thumbnail ? buildAbsoluteUrl(project.thumbnail) : "";
+
   return (
     <>
       <Head>
-        <title>{project.seoTitle || `${project.title} | Gonzalo`}</title>
-        <meta name="description" content={project.seoDescription || project.summary} />
-        <meta property="og:title" content={project.seoTitle || project.title} />
-        <meta property="og:description" content={project.seoDescription || project.summary} />
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href={url} />
+        <meta property="og:locale" content={siteMetadata.locale} />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content={siteMetadata.name} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content={url} />
+        {imageUrl ? <meta property="og:image" content={imageUrl} /> : null}
+        <meta name="twitter:card" content={imageUrl ? "summary_large_image" : "summary"} />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        {imageUrl ? <meta name="twitter:image" content={imageUrl} /> : null}
       </Head>
 
       <main className="min-h-screen bg-background text-foreground">

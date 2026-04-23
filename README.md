@@ -29,6 +29,27 @@ Portfolio profesional construido con Next.js, React y Tailwind CSS. El sitio mue
 
 El sitio puede leer metadata desde los README de repositorios de GitHub. Para que un repositorio aparezca en el portfolio, incluir una seccion `portfolio-meta` con JSON:
 
+### Metadata sugerida para este proyecto
+
+```json
+{
+  "slug": "gibaweb",
+  "title": "GibaWeb",
+  "summary": "Portfolio profesional construido con Next.js, React y Tailwind CSS para mostrar proyectos, stack tecnico y contacto.",
+  "seoTitle": "GibaWeb Portfolio | Portfolio de Gonzalo Ibarrola",
+  "seoDescription": "Portfolio profesional de Gonzalo Ibarrola con proyectos destacados, stack tecnico, SEO por pagina e integracion con GitHub API.",
+  "tags": ["Next.js", "React", "Tailwind CSS", "SEO"],
+  "technologies": ["Next.js", "React", "Tailwind CSS", "JavaScript", "GitHub API"],
+  "thumbnail": "/images/projects/gibaweb-portfolio/cover.png",
+  "thumbnailAlt": "Vista principal del portfolio GibaWeb",
+  "demoUrl": "https://gibaweb.vercel.app",
+  "repoUrl": "https://github.com/gonzaloibarrola/gibaweb",
+  "published": true,
+  "featured": true,
+  "priority": 1
+}
+```
+
 ````md
 ## portfolio-meta
 
