@@ -10,7 +10,7 @@ Portfolio profesional construido con Next.js, React y Tailwind CSS. El sitio mue
 - Integracion con GitHub API para obtener repositorios, README, lenguajes y metadata de portfolio.
 - Fallback local de proyectos y tecnologias si GitHub no responde o no hay metadata disponible.
 - SEO por pagina con `next/head`, titulos y descripciones especificas.
-- Estilos con Tailwind CSS y tokens visuales centralizados en `tailwind.config.js`.
+- Estilos con Tailwind CSS centralizados en `tailwind.config.js`.
 - Configuracion de produccion con headers basicos de seguridad, compresion y formatos modernos de imagen.
 - Linting con ESLint y reglas Core Web Vitals de Next.js.
 

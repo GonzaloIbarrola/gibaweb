@@ -28,7 +28,7 @@ export default function ContactSection() {
                 Enviar mensaje
               </a>
               <a
-                href="https://github.com/"
+                href="https://github.com/GonzaloIbarrola"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center justify-center rounded-xl border border-white/10 bg-white/[0.03] px-6 py-4 text-base font-semibold text-foreground transition hover:border-accent/30 hover:text-accent"
