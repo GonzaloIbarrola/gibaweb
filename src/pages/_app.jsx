@@ -1,12 +1,13 @@
 import "@/styles/globals.css";
 import { Analytics } from "@vercel/analytics/next";
+import Head from "next/head";
 
 export default function App({ Component, pageProps }) {
   return (
-    <>
-      <link rel="icon" href="/favicon.ico" />
+    <Head>
+      <link rel="icon" href="/favicon.png" />
       <Component {...pageProps} />
       <Analytics />
-    </>
+    </Head>
   );
 }
