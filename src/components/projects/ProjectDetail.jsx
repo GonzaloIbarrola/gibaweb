@@ -12,7 +12,7 @@ function DetailBlock({ title, children }) {
 
 export default function ProjectDetail({ project }) {
   return (
-    <section className="py-24">
+    <section className="py-24 hidden">
       <Container>
         <SectionHeading
           eyebrow="Detalle"
